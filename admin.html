@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easybuy - Admin Login</title>
+    <link rel="stylesheet" href="adminstyle.css">
+</head>
+<body>
+
+    
+    <div class="login-container">
+        
+        
+        <span class="close-btn" onclick="window.location.href='home.html'">&times;</span>
+
+        <span class="admin-badge">Admin Access</span>
+        <p class="subtitle">SECURE LOGIN</p>
+        <h2>Admin Panel</h2>
+        <p class="desc">Sign in with your admin credentials to manage products, orders, and the store.</p>
+
+        <form onsubmit="event.preventDefault(); window.location.href='../admin%20side/admin-dashboard.html';">
+            
+            
+            <div class="form-group">
+                <label>Admin ID</label>
+                <div class="input-wrapper">
+                    <span class="input-icon">&#128100;</span>
+                    <input type="text" placeholder="admin@easybuy.com" required>
+                </div>
+            </div>
+
+            
+            <div class="form-group">
+                <label>Password</label>
+                <div class="input-wrapper">
+                    <span class="input-icon">&#128274;</span>
+                    <input type="password" placeholder="........" required>
+                </div>
+            </div>
+
+            
+            <button type="submit" class="login-btn">Login to Dashboard</button>
+
+        </form>
+
+        <p class="back-text">Not an admin? <a href="/client side/login.html">Customer Login</a></p>
+
+    </div>
+
+</body>
+</html>

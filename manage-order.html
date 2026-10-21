@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easybuy - Manage Orders</title>
+    <link rel="stylesheet" href="manage-order.css">
+</head>
+<body>
+
+    
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <div class="logo-icon">e</div>
+            <span>easybuy</span>
+        </div>
+
+        <p class="sidebar-title">Workspace</p>
+        <nav class="sidebar-nav">
+            <a href="admin-dashboard.html">
+                <span class="icon">&#9635;</span>
+                <span>Dashboard</span>
+            </a>
+            <a href="manage-products.html">
+                <span class="icon">&#128230;</span>
+                <span>Manage products</span>
+            </a>
+            <a href="addproduct.html">
+                <span class="icon">&#10133;</span>
+                <span>Add product</span>
+            </a>
+            <a href="manage-order.html" class="active">
+                <span class="icon">&#128203;</span>
+                <span>Manage orders</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <a href="../client%20side/home.html">
+                <span class="icon">&#8599;</span>
+                <span>View storefront</span>
+            </a>
+            <a href="../client%20side/admin.html">
+                <span class="icon">&#128682;</span>
+                <span>Log out</span>
+            </a>
+        </div>
+    </aside>
+
+    
+    <main class="main-content">
+
+        
+        <div class="top-header">
+            <div class="left">
+                <h4>Easybuy back office</h4>
+                <h2>Store operations</h2>
+            </div>
+            <div class="admin-profile">
+                <div class="info">
+                    <div class="name">ANSH PANDEY</div>
+                    <div class="role">Administrator</div>
+                </div>
+                <div class="admin-avatar">AN</div>
+            </div>
+        </div>
+
+        
+        <div class="page-header">
+            <div>
+                <p class="subtitle">Orders</p>
+                <h1>Manage orders</h1>
+                <p>Keep every delivery moving in the right direction.</p>
+            </div>
+            <button class="export-btn">
+                &#128229; Export report
+            </button>
+        </div>
+
+        
+        <div class="table-wrapper">
+            <div class="table-top">
+                <span class="total">284 <span>total orders</span></span>
+                <select class="status-filter">
+                    <option>All status</option>
+                    <option>Processing</option>
+                    <option>Shipped</option>
+                    <option>Delivered</option>
+                    <option>Cancelled</option>
+                </select>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order</th>
+                        <th>Customer</th>
+                        <th>Items</th>
+                        <th>Total</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    
+                    <tr>
+                        <td class="order-id">#EB-1048</td>
+                        <td class="customer">ADARSH</td>
+                        <td class="items">AirWave Pro Headphones</td>
+                        <td class="total-amount">$129.00</td>
+                        <td class="date">Jun 18, 2025</td>
+                        <td><span class="status status-processing">Processing</span></td>
+                        <td class="actions">&#8942;</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td class="order-id">#EB-1047</td>
+                        <td class="customer">ASHISH</td>
+                        <td class="items">Pulse Smartwatch + 1</td>
+                        <td class="total-amount">$203.00</td>
+                        <td class="date">Jun 18, 2025</td>
+                        <td><span class="status status-shipped">Shipped</span></td>
+                        <td class="actions">&#8942;</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td class="order-id">#EB-1046</td>
+                        <td class="customer">ANSH</td>
+                        <td class="items">Glow Skin Essentials</td>
+                        <td class="total-amount">$48.00</td>
+                        <td class="date">Jun 17, 2025</td>
+                        <td><span class="status status-delivered">Delivered</span></td>
+                        <td class="actions">&#8942;</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td class="order-id">#EB-1045</td>
+                        <td class="customer">AMAN</td>
+                        <td class="items">Stride Runner Sneakers</td>
+                        <td class="total-amount">$94.00</td>
+                        <td class="date">Jun 17, 2025</td>
+                        <td><span class="status status-delivered">Delivered</span></td>
+                        <td class="actions">&#8942;</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td class="order-id">#EB-1044</td>
+                        <td class="customer">ANUJ</td>
+                        <td class="items">Sundial Ceramic Mug</td>
+                        <td class="total-amount">$24.00</td>
+                        <td class="date">Jun 16, 2025</td>
+                        <td><span class="status status-cancelled">Cancelled</span></td>
+                        <td class="actions">&#8942;</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>

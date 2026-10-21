@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easybuy - Admin Dashboard</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <div class="logo-icon">e</div>
+            <span>easybuy</span>
+        </div>
+
+        <p class="sidebar-title">Workspace</p>
+        <nav class="sidebar-nav">
+            <a href="admin-dashboard.html" class="active">
+                <span class="icon">&#9635;</span>
+                <span>Dashboard</span>
+            </a>
+            <a href="manage-products.html">
+                <span class="icon">&#128230;</span>
+                <span>Manage products</span>
+            </a>
+            <a href="addproduct.html">
+                <span class="icon">&#10133;</span>
+                <span>Add product</span>
+            </a>
+            <a href="manage-order.html">
+                <span class="icon">&#128203;</span>
+                <span>Manage orders</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <a href="../client%20side/home.html">
+                <span class="icon">&#8599;</span>
+                <span>View storefront</span>
+            </a>
+            <a href="../client%20side/admin.html">
+                <span class="icon">&#128682;</span>
+                <span>Logout</span>
+            </a>
+        </div>
+
+    </aside>
+
+    
+
+
+    <main class="main-content">
+
+        
+        <div class="top-header">
+            <div class="left">
+                <h4>Easybuy back office</h4>
+                <h2>Store operations</h2>
+            </div>
+            <div class="admin-profile">
+                <div class="info">
+                    <div class="name">ANSH PANDEY</div>
+                    <div class="role">Administrator</div>
+                </div>
+                <div class="admin-avatar">AN</div>
+            </div>
+        </div>
+
+        
+        <div class="greeting-section">
+            <div>
+                <p class="date">Tuesday, June 18</p>
+                <h1>Good morning, Ansh.</h1>
+                <p>Here's what's happening across your store today.</p>
+            </div>
+            <a class="new-product-btn" href="addproduct.html">
+                Add new product &nbsp;+
+            </a>
+        </div>
+
+        
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <span class="growth">&#8593; 18.2%</span>
+                <div class="icon-box">&#128176;</div>
+                <h4>Revenue</h4>
+                <div class="value">$12,480</div>
+            </div>
+
+            <div class="stat-card">
+                <span class="growth">&#8593; 12.4%</span>
+                <div class="icon-box">&#128722;</div>
+                <h4>Orders</h4>
+                <div class="value">284</div>
+            </div>
+
+            <div class="stat-card">
+                <span class="growth">&#8593; 8 new</span>
+                <div class="icon-box">&#128230;</div>
+                <h4>Products</h4>
+                <div class="value">128</div>
+            </div>
+
+            <div class="stat-card">
+                <span class="growth">&#8593; 21.6%</span>
+                <div class="icon-box">&#128100;</div>
+                <h4>Customers</h4>
+                <div class="value">1,429</div>
+            </div>
+
+        </div>
+
+        
+        <div class="bottom-grid">
+
+            
+            <div class="chart-card">
+                <div class="chart-header">
+                    <div>
+                        <h3>Sales overview</h3>
+                        <p>Last 7 days · All channels</p>
+                    </div>
+                    <span class="chart-growth">&#8593; 18.2%</span>
+                </div>
+
+                
+                <svg class="chart-area" viewBox="0 0 400 180" preserveAspectRatio="none">
+                    
+                    <line x1="0" y1="40" x2="400" y2="40" stroke="#f0f0f0" stroke-width="1" />
+                    <line x1="0" y1="80" x2="400" y2="80" stroke="#f0f0f0" stroke-width="1" />
+                    <line x1="0" y1="120" x2="400" y2="120" stroke="#f0f0f0" stroke-width="1" />
+
+                    
+                    <path d="M 10 130 L 70 100 L 130 120 L 190 70 L 250 100 L 310 50 L 390 30" fill="none" stroke="#111"
+                        stroke-width="2" />
+
+                    
+                    <circle cx="10" cy="130" r="3" fill="#111" />
+                    <circle cx="70" cy="100" r="3" fill="#111" />
+                    <circle cx="130" cy="120" r="3" fill="#111" />
+                    <circle cx="190" cy="70" r="3" fill="#111" />
+                    <circle cx="250" cy="100" r="3" fill="#111" />
+                    <circle cx="310" cy="50" r="3" fill="#111" />
+                    <circle cx="390" cy="30" r="3" fill="#111" />
+                </svg>
+
+                <div class="chart-days">
+                    <span>M</span>
+                    <span>T</span>
+                    <span>W</span>
+                    <span>T</span>
+                    <span>F</span>
+                    <span>S</span>
+                    <span>S</span>
+                </div>
+            </div>
+
+            
+            <div class="top-products-card">
+                <div class="card-header">
+                    <h3>Top products</h3>
+                    <a href="manage-products.html">View all</a>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-thumb">&#127911;</div>
+                    <div class="product-info">
+                        <div class="name">AirWave Pro Headphones</div>
+                        <div class="sold">82 sold this month</div>
+                    </div>
+                    <div class="price">$129</div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-thumb">&#128095;</div>
+                    <div class="product-info">
+                        <div class="name">Stride Runner Sneakers</div>
+                        <div class="sold">64 sold this month</div>
+                    </div>
+                    <div class="price">$94</div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-thumb">&#8986;</div>
+                    <div class="product-info">
+                        <div class="name">Pulse Smartwatch</div>
+                        <div class="sold">49 sold this month</div>
+                    </div>
+                    <div class="price">$179</div>
+                </div>
+
+                <div class="product-row">
+                    <div class="product-thumb">&#127800;</div>
+                    <div class="product-info">
+                        <div class="name">Glow Skin Essentials</div>
+                        <div class="sold">36 sold this month</div>
+                    </div>
+                    <div class="price">$48</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
